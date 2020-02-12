@@ -1,0 +1,13 @@
+*.class
+*.log
+*.jar
+*.war
+*.zip
+*.classpath
+*.project
+*.settings
+*.mf
+*.prefs
+target
+/.idea
+*.iml

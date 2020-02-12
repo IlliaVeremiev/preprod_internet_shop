@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jspversion>2.0</jspversion>
+	<short-name>captchadisplay-taglib</short-name>
+	<tag>
+		<name>captchadisplay</name>
+		<tag-class>com.epam.preprod.veremiev.task11.modules.captcha.CaptchaTag
+		</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>captcha</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+			<type>com.epam.preprod.veremiev.task11.modules.captcha.Captcha
+			</type>
+		</attribute>
+		<attribute>
+			<name>id</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+			<type>java.lang.Long
+			</type>
+		</attribute>
+	</tag>
+
+</taglib>

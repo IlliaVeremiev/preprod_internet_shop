@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.example.org/access_rights"
+	xmlns:tns="http://www.example.org/access_rights"
+	elementFormDefault="qualified">
+
+	<element name="access_rights">
+		<complexType>
+			<sequence>
+				<element name="constraint" type="tns:constraint"
+					maxOccurs="unbounded" />
+			</sequence>
+		</complexType>
+	</element>
+
+	<complexType name="constraint">
+		<sequence>
+			<element name="url-pattern" type="normalizedString" />
+			<sequence>
+				<element name="role" type="normalizedString"
+					maxOccurs="unbounded" />
+			</sequence>
+		</sequence>
+	</complexType>
+</schema>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<access_rights
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://www.example.org/access_rights"
+	xsi:schemaLocation="http://www.example.org/access_rights access_rights.xsd">
+	<constraint>
+		<url-pattern>/orders</url-pattern>
+		<role>admin</role>
+		<role>customer</role>
+	</constraint>
+</access_rights>
